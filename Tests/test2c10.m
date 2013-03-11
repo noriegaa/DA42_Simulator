@@ -5,8 +5,7 @@ testname2 = 'Short Period Dynamics'; % For other reasons, dont delete
 fdata = load('2c10.csv');
 
 % Fix elevator
-fdata(:,14) = -fdata(:,14);
-fdata(:,13) = -fdata(:,13);
+fdata(:,14) = -ta(:,14);
 
 % Create the name to save the file
 pathtosave = fullfile(pwd,foldertosave);
